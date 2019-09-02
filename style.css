@@ -1,0 +1,154 @@
+body {
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #2979FF;
+}
+
+.header-title {
+    font-family: 'Kosugi', sans-serif;
+    margin: 0 0 0 30px;
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.main-menu  {
+    width: 100%;
+    height: 50px;
+    background-color: #82B1FF;
+    display: flex;
+}
+
+.menu-panel {
+    margin: 10px auto;
+    display: flex;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 6px 30px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Kosugi', sans-serif;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    background-color: #2979FF;
+}
+
+.main-contents {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.post-title {
+    font-family: "M PLUS Rounded 1c";
+    font-size: 30px;
+    /* colorをここで変更してみてください */
+    color: gray;
+}
+
+.telegram {
+    height: 300px;
+    display: flex;
+}
+
+.post1-img {
+    width: 50%;
+    height: auto;
+}
+
+.post1-text {
+    width: 45%;
+    height: 300px;
+    display: inline-block;
+    margin-left: auto;
+    border: 5px dashed #FFEB3B;
+}
+
+.sentence {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif, " M PLUS Rounded 1c";
+}
+
+.js-demo-section {
+    height: 300px;
+}
+
+.toggle-parent {
+    list-style: none;
+}
+
+.caption-parent {
+    width: 50%;
+    border-top: 3px dashed #FFEB3B;
+    border-bottom: 3px dashed #FFEB3B;
+    margin: 0 auto;
+}
+
+.caption-parent:hover {
+    background-color: #FFEB3B;
+}
+
+.toggle-caption {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif, " M PLUS Rounded 1c";
+}
+
+#toggle {
+    display: none;
+    width: 50%;
+    height: auto;
+    background-color: #2196F3;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.toggle-space {
+    height: 30px;
+}
+
+#toggle p {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif, " M PLUS Rounded 1c";
+    color: #ffffff;
+}
+
+.button {
+    width: 30%;
+    height: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif, " M PLUS Rounded 1c";
+    background-color: #2196F3;
+    color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+.space {
+    padding-top: 370px;
+    height: 50px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #E0E0E0;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif, " M PLUS Rounded 1c";
+}

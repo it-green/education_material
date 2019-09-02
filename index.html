@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="これはTUAD <hack/>で利用するために制作したHTMLファイルです。このファイルの中身をコメントにしたがって書き換えてください。">
+        <!-- titleタグの中身を自分の名前にしてみてください -->
+        <title>Web site</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link href="https://fonts.googleapis.com/css?family=Kosugi&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <!-- ○○の部分を自分の名前にしてください。 -->
+            <p class="header-title">〇〇のWebサイト</p>
+        </div>
+        <div class="main-menu">
+            <div class="menu-panel">
+                <a href="#" class="link-button">ホーム</a>
+                <a href="#" class="link-button">プロフィール</a>
+                <a href="#" class="link-button">作品</a>
+                <a href="#" class="link-button">お問い合わせ</a>
+            </div>
+        </div>
+        <div class="main-contents">
+            <!-- 〇〇の部分を自分の名前に変更してください。また、文字色の変更をstyle.cssから変更してみてください。 -->
+            <p class="post-title">〇〇のWebサイトにようこそ</p>
+            <div class="telegram">
+                <!-- ここで、自分の画像を入れてみましょう!!imgフォルダに自分の写真をドラックアンドドロップして<img src="">の部分を書き換えてください! -->
+                <img src="./img/noimg.png" class="post1-img">
+                <div class="post1-text">
+                    <p class="sentence">
+                        こんにちは、TUAD &lt;hack/&gt; では皆さんと一緒に
+                        Webプログラミングの勉強を行なっていきます。7回構成
+                        のワークで、たくさん参加すると就活にでも役に立つWeb
+                        ポートフォリオを完成させることができます。普段の授業
+                        ではなかなかできない、インターネットにアップロードを
+                        行うところまでできるのが本講座の特徴です!!ただし、少
+                        し難しいかも知れません。千里の道も一歩から、コツコツ
+                        頑張りましょう!!
+                    </p>
+                </div>
+            </div>
+            <div class="js-demo-section">
+                <p class="post-title">お試しJaveScript</p>
+                <div class="toggle-parent">
+                    <div class="caption-parent">
+                        <p class="toggle-caption">JavaScriptってなんだ?</p>
+                    </div>
+                    <div class="toggle-space"></div>
+                    <div id="toggle">
+                        <p>
+                            お疲れ様です!!ここまでいろいろ試してみて
+                            Web開発の面白さを知ってもらえたら嬉しいです。
+                            ですが、もっと素敵なWebを作るにはアニメーション
+                            などの要素も大切になってきます!!そこで使うのがJavaScriptです。
+                            簡単にこのスライドトグルも実装できます。ファイル'script.js'をのぞいてみてください。
+                            また、仕上げに下にあるボタンのJavaScriptの記述を変更してみましょう。
+                        </p>
+                    </div>
+                </div>
+                <div class="toggle-space"></div>
+                <!-- 下にあるボタンを押した時の挙動を変えるために、index.jsをのぞいてください -->
+                <button class="button" onClick="openAlert()">ここを押してみてください!</button>
+            </div>
+        </div>
+        <div class="space"></div>
+        <div class="footer">
+            <p>Copyright 'RyotaroKato'</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
